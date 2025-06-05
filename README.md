@@ -5,6 +5,7 @@ Here's a professional, Codex-ready **`README.md` section** you can add to your r
 ## 🚀 Codex Task: Build a Scalable eCommerce UI Kit
 
 Welcome, Codex contributors! This repository is focused on building a **fully responsive, reusable, and accessible eCommerce UI Kit** using modern frontend best practices.
+It now includes a basic **Expo** setup in `expo-app/` so you can prototype mobile views alongside the web components.
 
 ---
 
@@ -65,8 +66,9 @@ This UI kit is intended for both **web** and **mobile-responsive views**, simila
 ```bash
 git clone https://github.com/sitharaj88/ecommerece-ui-kit
 cd ecommerece-ui-kit
+cd expo-app
 npm install
-npm run dev
+npm start
 ```
 
 ---
