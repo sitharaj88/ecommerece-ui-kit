@@ -5,7 +5,7 @@ Here's a professional, Codex-ready **`README.md` section** you can add to your r
 ## 🚀 Codex Task: Build a Scalable eCommerce UI Kit
 
 Welcome, Codex contributors! This repository is focused on building a **fully responsive, reusable, and accessible eCommerce UI Kit** using modern frontend best practices.
-It now includes a basic **Expo** setup in `expo-app/` so you can prototype mobile views alongside the web components.
+It now includes a basic **Expo** setup in `expo-app/` using the modern `app` directory powered by **expo-router**. This allows you to prototype mobile views with file-based routing alongside the web components.
 
 ---
 
@@ -68,8 +68,10 @@ git clone https://github.com/sitharaj88/ecommerece-ui-kit
 cd ecommerece-ui-kit
 cd expo-app
 npm install
-npm start
+npx expo start
 ```
+
+The mobile app uses **expo-router** with an `app` directory for file-based routing. Modify files under `expo-app/app/` to add new screens and layouts.
 
 ---
 
