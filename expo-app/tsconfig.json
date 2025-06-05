@@ -14,9 +14,12 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "types": [
-      "expo-router"
-    ]
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@screens/*": ["src/screens/*"]
+    },
+    "types": ["expo-router"]
   },
   "include": [
     "**/*.ts",

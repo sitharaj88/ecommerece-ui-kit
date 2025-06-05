@@ -71,7 +71,9 @@ npm install
 npx expo start
 ```
 
-The mobile app uses **expo-router** with an `app` directory for file-based routing. Modify files under `expo-app/app/` to add new screens and layouts.
+The mobile app uses **expo-router** with an `app` directory for file-based routing.
+Screens live in `expo-app/src/screens` and are imported from the route files under `expo-app/app/`.
+Shared UI components can be placed in `expo-app/src/components`.
 
 ---
 
